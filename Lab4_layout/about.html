@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Layout Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+
+        <header>
+            <h1>Layout Sederhana</h1>
+        </header>
+
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="#">Artikel</a>
+            <a href="about.html" class="active">About</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+
+        <!-- Tugas 1: single layout berisi deskripsi & portfolio -->
+        <section class="page">
+            <h1>About Me</h1>
+            <p>Halo, saya <b>Syafri Prayogo</b>, mahasiswa Teknik Informatika di
+            Universitas Pelita Bangsa. Halaman ini dibuat sebagai tugas Praktikum 4
+            (CSS Layout) untuk menampilkan deskripsi diri dan portofolio dalam satu
+            halaman (single layout) tanpa sidebar.</p>
+
+            <p>Saya tertarik pada pengembangan web.
+            Dalam mata kuliah Pemrograman Web ini saya mempelajari HTML, CSS, hingga
+            penyusunan layout web yang rapi dan responsif.</p>
+
+            <h2>Portfolio</h2>
+            <div class="row portfolio">
+                <div class="box">
+                    <img src="img/pic1.png" alt="Proyek 1">
+                    <h3>Website Profil</h3>
+                    <p>Landing page sederhana dengan HTML & CSS dari Praktikum 1-3.</p>
+                </div>
+                <div class="box">
+                    <img src="img/pic2.png" alt="Proyek 2">
+                    <h3>Form Registrasi</h3>
+                    <p>Halaman form dengan validasi dasar dari Praktikum 2.</p>
+                </div>
+                <div class="box">
+                    <img src="img/pic3.png" alt="Proyek 3">
+                    <h3>Layout Web</h3>
+                    <p>Layout web dengan float, semantic, dan clearfix (Praktikum 4).</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 - Universitas Pelita Bangsa</p>
+        </footer>
+
+    </div>
+</body>
+</html>
